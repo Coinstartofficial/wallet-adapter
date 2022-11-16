@@ -1,0 +1,49 @@
+{
+  "name": "@coinstart/wallet-adapter",
+  "license": "MIT",
+  "version": "0.1.0",
+  "type": "module",
+  "author": "YinYue [https://github.com/yinyue-start]",
+  "description": "Integration of Coinstart Wallet into the Sui Wallet Adapter",
+  "main": "dist/coinstart__wallet-adapter.es.js",
+  "module": "dist/coinstart__wallet-adapter.es.js",
+  "types": "./typings/coinstart__wallet-adapter.d.ts",
+  "files": [
+    "dist",
+    "typings"
+  ],
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "docsify-cli": "^4.4.4",
+    "yrm": "^1.0.6"
+  },
+  "devDependencies": {
+    "@types/react": "^18.0.24",
+    "@types/react-dom": "^18.0.8",
+    "@vitejs/plugin-react": "^2.2.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "storybook": "^6.5.13",
+    "typescript": "^4.6.4",
+    "vite": "^3.2.3",
+    "vite-dts": "^1.0.4"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Coinstartofficial/wallet-adapter"
+  },
+  "bugs": {
+    "url": "https://github.com/Coinstartofficial/wallet-adapter/issues"
+  },
+  "homepage": "https://github.com/Coinstartofficial/wallet-adapter",
+  "keywords": [
+    "web3",
+    "coinstart",
+    "wallet",
+    "adapter"
+  ]
+}
